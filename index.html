@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body onload="createMock()">
+    <h1>Rifa</h1>
+
+    <form onsubmit="createUser(event)">
+      <input type="text" name="name" id="name" placeholder="Digite seu nome" />
+      <button id="createuser" type="submit">Criar usuário</button>
+    </form>
+
+    <ul id="userlist"></ul>
+
+    <button id="buttonrandom" onclick="random()">Fazer sorteio</button>
+    <h2 id="randomName"></h2>
+    <button onclick="teste()">Create Teste</button>
+    <script src="index.js"></script>
+  </body>
+</html>
